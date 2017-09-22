@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3698F81E1F5B7C7A0013431F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698F81D1F5B7C7A0013431F /* AppDelegate.swift */; };
+		3698F8201F5B7C7A0013431F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698F81F1F5B7C7A0013431F /* ViewController.swift */; };
+		3698F8231F5B7C7A0013431F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3698F8211F5B7C7A0013431F /* Main.storyboard */; };
+		3698F8251F5B7C7A0013431F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3698F8241F5B7C7A0013431F /* Assets.xcassets */; };
+		3698F8281F5B7C7A0013431F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3698F8261F5B7C7A0013431F /* LaunchScreen.storyboard */; };
+		3698F8361F5B7E680013431F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698F8351F5B7E680013431F /* WelcomeViewController.swift */; };
+		3698F8381F5B86A00013431F /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698F8371F5B86A00013431F /* AboutUsViewController.swift */; };
+		3698F83A1F5C4F870013431F /* ApplyNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698F8391F5C4F870013431F /* ApplyNowViewController.swift */; };
+		3698F83C1F5C505F0013431F /* CampusMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698F83B1F5C505F0013431F /* CampusMapViewController.swift */; };
+		3698F8401F5C52F70013431F /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698F83F1F5C52F70013431F /* ContactUsViewController.swift */; };
+		3698F8421F5C53040013431F /* FacebookPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698F8411F5C53040013431F /* FacebookPageViewController.swift */; };
+		3698F8441F5CB9CB0013431F /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3698F8431F5CB9CB0013431F /* BlogViewController.swift */; };
+		36ABF8961F636EE600D3EE90 /* ZFRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ABF8951F636EE600D3EE90 /* ZFRippleButton.swift */; };
+		36B505211F5F7A120026C8BF /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B505201F5F7A120026C8BF /* SWRevealViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3698F81A1F5B7C7A0013431F /* HonorCollegeSAUProJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonorCollegeSAUProJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3698F81D1F5B7C7A0013431F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3698F81F1F5B7C7A0013431F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3698F8221F5B7C7A0013431F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3698F8241F5B7C7A0013431F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3698F8271F5B7C7A0013431F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3698F8291F5B7C7A0013431F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3698F8311F5B7D480013431F /* HonorCollegeSAUProJ-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HonorCollegeSAUProJ-Bridging-Header.h"; sourceTree = "<group>"; };
+		3698F8351F5B7E680013431F /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3698F8371F5B86A00013431F /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		3698F8391F5C4F870013431F /* ApplyNowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyNowViewController.swift; sourceTree = "<group>"; };
+		3698F83B1F5C505F0013431F /* CampusMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampusMapViewController.swift; sourceTree = "<group>"; };
+		3698F83F1F5C52F70013431F /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		3698F8411F5C53040013431F /* FacebookPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookPageViewController.swift; sourceTree = "<group>"; };
+		3698F8431F5CB9CB0013431F /* BlogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
+		36ABF8951F636EE600D3EE90 /* ZFRippleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZFRippleButton.swift; sourceTree = "<group>"; };
+		36B5051F1F5F7A120026C8BF /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		36B505201F5F7A120026C8BF /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3698F8171F5B7C7A0013431F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3669C7951F6C67AD00A705C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3698F8311F5B7D480013431F /* HonorCollegeSAUProJ-Bridging-Header.h */,
+				3698F81F1F5B7C7A0013431F /* ViewController.swift */,
+				3698F8431F5CB9CB0013431F /* BlogViewController.swift */,
+				3698F83F1F5C52F70013431F /* ContactUsViewController.swift */,
+				3698F8411F5C53040013431F /* FacebookPageViewController.swift */,
+				3698F83B1F5C505F0013431F /* CampusMapViewController.swift */,
+				3698F8371F5B86A00013431F /* AboutUsViewController.swift */,
+				3698F8391F5C4F870013431F /* ApplyNowViewController.swift */,
+				3698F8351F5B7E680013431F /* WelcomeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3669C7961F6C67BB00A705C5 /* SideNav */ = {
+			isa = PBXGroup;
+			children = (
+				3698F81D1F5B7C7A0013431F /* AppDelegate.swift */,
+				36ABF8951F636EE600D3EE90 /* ZFRippleButton.swift */,
+				36B5051F1F5F7A120026C8BF /* SWRevealViewController.h */,
+				36B505201F5F7A120026C8BF /* SWRevealViewController.m */,
+			);
+			name = SideNav;
+			sourceTree = "<group>";
+		};
+		3669C7971F6C67FC00A705C5 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3698F8261F5B7C7A0013431F /* LaunchScreen.storyboard */,
+				3698F8211F5B7C7A0013431F /* Main.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		3698F8111F5B7C7A0013431F = {
+			isa = PBXGroup;
+			children = (
+				3698F81C1F5B7C7A0013431F /* HonorCollegeSAUProJ */,
+				3698F81B1F5B7C7A0013431F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3698F81B1F5B7C7A0013431F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3698F81A1F5B7C7A0013431F /* HonorCollegeSAUProJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3698F81C1F5B7C7A0013431F /* HonorCollegeSAUProJ */ = {
+			isa = PBXGroup;
+			children = (
+				3669C7971F6C67FC00A705C5 /* StoryBoard */,
+				3669C7961F6C67BB00A705C5 /* SideNav */,
+				3669C7951F6C67AD00A705C5 /* Controller */,
+				3698F8241F5B7C7A0013431F /* Assets.xcassets */,
+				3698F8291F5B7C7A0013431F /* Info.plist */,
+			);
+			path = HonorCollegeSAUProJ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3698F8191F5B7C7A0013431F /* HonorCollegeSAUProJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3698F82C1F5B7C7A0013431F /* Build configuration list for PBXNativeTarget "HonorCollegeSAUProJ" */;
+			buildPhases = (
+				3698F8161F5B7C7A0013431F /* Sources */,
+				3698F8171F5B7C7A0013431F /* Frameworks */,
+				3698F8181F5B7C7A0013431F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HonorCollegeSAUProJ;
+			productName = HonorCollegeSAUProJ;
+			productReference = 3698F81A1F5B7C7A0013431F /* HonorCollegeSAUProJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3698F8121F5B7C7A0013431F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Favour Ori";
+				TargetAttributes = {
+					3698F8191F5B7C7A0013431F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SCNHV3XC5J;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3698F8151F5B7C7A0013431F /* Build configuration list for PBXProject "HonorCollegeSAUProJ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3698F8111F5B7C7A0013431F;
+			productRefGroup = 3698F81B1F5B7C7A0013431F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3698F8191F5B7C7A0013431F /* HonorCollegeSAUProJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3698F8181F5B7C7A0013431F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3698F8281F5B7C7A0013431F /* LaunchScreen.storyboard in Resources */,
+				3698F8251F5B7C7A0013431F /* Assets.xcassets in Resources */,
+				3698F8231F5B7C7A0013431F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3698F8161F5B7C7A0013431F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3698F8381F5B86A00013431F /* AboutUsViewController.swift in Sources */,
+				3698F8201F5B7C7A0013431F /* ViewController.swift in Sources */,
+				3698F8421F5C53040013431F /* FacebookPageViewController.swift in Sources */,
+				3698F8361F5B7E680013431F /* WelcomeViewController.swift in Sources */,
+				3698F81E1F5B7C7A0013431F /* AppDelegate.swift in Sources */,
+				3698F83C1F5C505F0013431F /* CampusMapViewController.swift in Sources */,
+				3698F8441F5CB9CB0013431F /* BlogViewController.swift in Sources */,
+				36ABF8961F636EE600D3EE90 /* ZFRippleButton.swift in Sources */,
+				36B505211F5F7A120026C8BF /* SWRevealViewController.m in Sources */,
+				3698F83A1F5C4F870013431F /* ApplyNowViewController.swift in Sources */,
+				3698F8401F5C52F70013431F /* ContactUsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3698F8211F5B7C7A0013431F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3698F8221F5B7C7A0013431F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3698F8261F5B7C7A0013431F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3698F8271F5B7C7A0013431F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3698F82A1F5B7C7A0013431F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3698F82B1F5B7C7A0013431F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3698F82D1F5B7C7A0013431F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SCNHV3XC5J;
+				INFOPLIST_FILE = HonorCollegeSAUProJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Favourori.HonorCollegeSAUProJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HonorCollegeSAUProJ/HonorCollegeSAUProJ-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3698F82E1F5B7C7A0013431F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SCNHV3XC5J;
+				INFOPLIST_FILE = HonorCollegeSAUProJ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Favourori.HonorCollegeSAUProJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HonorCollegeSAUProJ/HonorCollegeSAUProJ-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3698F8151F5B7C7A0013431F /* Build configuration list for PBXProject "HonorCollegeSAUProJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3698F82A1F5B7C7A0013431F /* Debug */,
+				3698F82B1F5B7C7A0013431F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3698F82C1F5B7C7A0013431F /* Build configuration list for PBXNativeTarget "HonorCollegeSAUProJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3698F82D1F5B7C7A0013431F /* Debug */,
+				3698F82E1F5B7C7A0013431F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3698F8121F5B7C7A0013431F /* Project object */;
+}
